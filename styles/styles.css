@@ -67,7 +67,14 @@ nav {
 
 .hero-content {
   min-height: 100vh;
-  background-image: url(../assets/hero-bg.png);
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.376)
+    ),
+    url("../assets/hero-bg.png");
+  background-color: ;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -75,6 +82,24 @@ nav {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.hero-p-f {
+  border-radius: 1000px;
+  width: 229px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 1);
+  margin-bottom: 16px;
+  color: rgba(70, 145, 101, 1);
+}
+
+.hero-p-f:hover {
+  background: #00ff6a;
+  color: white;
 }
 
 .hero-title {
@@ -244,7 +269,7 @@ nav {
   font-weight: 500;
   color: black;
   display: flex;
-  gap: 6px;
+  margin-bottom: 16px;
 }
 /* your second brain section edded */
 
