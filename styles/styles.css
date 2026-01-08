@@ -289,3 +289,58 @@ nav {
 }
 
 /* Ready to think more clearly section ended */
+
+/* footer style started */
+
+footer {
+  height: 348px;
+  background: rgba(0, 25, 49, 1);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 120px 120px 30px 120px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.footer-logo {
+  width: 139px;
+  height: 60px;
+}
+
+.social-container p {
+  font-style: Medium;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+.social-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.social-icons img {
+  width: 20px;
+  height: 20px;
+}
+
+.copyright-p {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.381);
+}
+
+/* footer ended */
