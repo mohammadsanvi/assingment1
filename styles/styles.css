@@ -151,7 +151,7 @@ nav {
 }
 
 .notes-dont-fail-title p {
-  color: var(--#627382, rgba(98, 115, 130, 1));
+  color: #627382;
   font-size: 16px;
 }
 
@@ -194,12 +194,56 @@ nav {
 }
 
 .card p {
-  color: var(--#627382, rgba(98, 115, 130, 1));
+  color: #627382;
   font-style: Regular;
   font-size: 16px;
   font-weight: 400;
   text-align: center;
 }
 
-
 /* Nots dont fail section ended */
+
+/* your second brain section started */
+
+.your-second-brain-container {
+  padding: 120px;
+  margin: 0 120px;
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.brain-logo {
+  width: 600px;
+  height: 600px;
+}
+
+.top-p {
+  color: #30b868;
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.your-second-brain-content h2 {
+  color: #001931;
+  font-style: Bold;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.your-second-brain-content .d-p{
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.points-p{
+    font-weight: 500;
+    color: black;
+    display: flex;
+    gap: 6px;
+}
+/* your second brain section edded */
